@@ -1,0 +1,27 @@
+:root {
+    --dark: #000000;
+    --white: #FFFFFF;
+    --pink:#f77b9a;
+    --purple:#d597f2;
+    --blue:#8ebaf6;
+    --yellow:#f8f69f;
+    --green:#82f698;
+}
+body {
+    color: var(--white);
+    font-family: helvetica;
+}
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white; /* Ensures text is visible on colored backgrounds */
+    border: none; /* Optional: removes the default button border */
+}
+
+#pink { background-color: var(--pink); }
+#blue { background-color: var(--blue); }
+#green { background-color: var(--green); }
+#yellow { background-color: var(--yellow); }
+#purple { background-color: var(--purple); }
